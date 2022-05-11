@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react'
 import Styled from 'styled-components'
+import ListaDeProdutos from './ListaDeProdutos'
 
 const Div = Styled.div`
 display:grid;
@@ -27,25 +28,24 @@ const P = Styled.p`
 
 `
 
-
-
 const Border = () => {
-    return (
-        <div>
-            <Div className="Container">
-                <Section1> Filtros
-                    <div>
-                        <p>Valor Minimo</p>
-                        <input type="Valor-Min" />
-                        <input type="Valor-Min" />
-                        <input type="Valor-Min" />
-                    </div>
-
-                </Section1>
-                <section> card 2 </section>
-                <Section3> card 3 </Section3>
-            </Div>
-        </div>
-    )
+  return (
+    <div>
+      <Div className="Container">
+        <Section1>
+          {' '}
+          Filtros
+          <div>
+            <p>Valor Minimo</p>
+            <input type="Valor-Min" />
+            <input type="Valor-Min" />
+            <input type="Valor-Min" />
+          </div>
+        </Section1>
+        <ListaDeProdutos />
+        <Section3> card 3 </Section3>
+      </Div>
+    </div>
+  )
 }
 export default Border
