@@ -1,5 +1,6 @@
 import React from "react";
 import Styled from 'styled-components'
+import ListaDeProdutos from "./ListaDeProdutos";
 
 const Div = Styled.div`
 display:grid;
@@ -42,7 +43,7 @@ const Border = () => {
                     </div>
 
                 </Section1>
-                <section> card 2 </section>
+                <ListaDeProdutos/>
                 <Section3> card 3 </Section3>
             </Div>
         </div>
