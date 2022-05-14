@@ -107,7 +107,7 @@ class App extends React.Component {
   }
 }
 
-//feito ate onde consegui....
+
 
 
 export default App
