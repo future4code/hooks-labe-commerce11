@@ -116,6 +116,6 @@ render(){
 }
 }
 
-  
+  //feito até onde consegui
 
 export default App;
