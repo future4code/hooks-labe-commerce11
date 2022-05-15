@@ -5,12 +5,15 @@ Sejam bem vindos ao Labe-commerce, esse repositório contém um esqueleto de app
 
 LAB COMMERCE
 
-O que funciona
+O que funciona:
+
 carrinho recebe e retira compras
 
-O que não funciona
+O que não funciona:
+
 Filtro e etilização
 
-Link Surge
+Link Surge:
+
 giant-sidewalk.surge.sh
 
